@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    color: purple;
+    text-decoration: underline;
+
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    background-color: rgba(238, 232, 170, 0.696);
+}
+
+button {
+    background-color: palegoldenrod;
+    color: purple;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    text-decoration: underline;
+}
+
+.alert-success {
+    color: green;
+}
+
+.alert-danger {
+    color: red;
+}
